@@ -23,7 +23,7 @@ public class WebElementCommands extends Base {
 		//to clear the message
 		//messageField.clear();
 		
-		WebElement yourMessage=driver.findElement(By.xpath("//div[@id='message-one']"));//XPath of Message
+		WebElement yourMessage=driver.findElement(By.xpath("//div[@id='message-one']"));//XPath of YourMessage
 		String message=yourMessage.getText();//to get the message in console output
 		System.out.println(message);
 		
@@ -39,7 +39,7 @@ public class WebElementCommands extends Base {
 		WebElementCommands element = new WebElementCommands();
 		element.initializeBrowser();
 		element.webElementCommands();
-		 element.driverCloseQuit();
+		 //element.driverCloseQuit();
 	}
 
 }

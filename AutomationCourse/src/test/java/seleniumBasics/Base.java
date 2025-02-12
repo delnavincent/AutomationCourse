@@ -16,7 +16,6 @@ public class Base {
 		driver.manage().window().maximize();// to maximize the screen
 	}
 
-
 	public void driverCloseQuit() {
 		// driver.close();//to close the latest window in the session
 		driver.quit();// to close all windows in the session
